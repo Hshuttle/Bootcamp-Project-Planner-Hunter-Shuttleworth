@@ -1,3 +1,6 @@
+var today = moment();
+$("#currentDay").text(today.format("MMM Do, YYYY"));
+
 $(document).ready(function () {
   // Start of for loop to generate time blocks with correct formatting
   for (var i = 8; i <= 22; i++) {
