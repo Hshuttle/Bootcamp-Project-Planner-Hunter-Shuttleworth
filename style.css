@@ -82,8 +82,7 @@ textarea {
 
 .trashBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-radius: 15px;
   background-color: rgb(249, 68, 68);
   color: white;
 }
