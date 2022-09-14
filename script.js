@@ -38,7 +38,7 @@ $(document).ready(function () {
       });
     // trash button functionality
     var trashButton = $("<button>")
-      .addClass("saveBtn col-1")
+      .addClass("trashBtn col-1")
       //   saves to local storage
       .on("click", function () {
         var hour = $(this).parent().attr("id");
